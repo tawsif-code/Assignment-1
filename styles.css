@@ -1,0 +1,24 @@
+
+/*nav styles*/
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav ul li{
+    list-style:none;
+}
+.primary-color{
+    color: blue;
+    font-size: 34px;
+}
+.btn-primary{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
