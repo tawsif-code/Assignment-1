@@ -149,7 +149,7 @@ nav ul li{
     display: block;
     margin-bottom: 20px;
     padding: 20px 30px;
-    border: black;
+    border-color: black;
     background-color: white;   
 }
 
