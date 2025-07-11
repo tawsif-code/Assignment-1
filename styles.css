@@ -42,6 +42,14 @@ nav ul li{
 .action{
     display: flex;
     justify-content: space-around;
+    max-width: 1140px;
+    margin:120px auto;
+}
+.mini{
+    border-radius: 48px;
+}
+.content{
+    max-width: 517px;
 }
 
 .content-title{
@@ -56,17 +64,16 @@ nav ul li{
     color: 252432;
 }
 
-bg-color{
-    color: deepskyblue;
-}
 .user{
-    align-items: center;
+    background-color: lightskyblue;
+    margin: 116px auto;
+    max-width: 1140px;
 }
 .user-title{
     color: 252432;
     font-size: 38px;
     font-weight: bold;
-    align-items: center;
+    text-align: center;
 }
 .user-abouts{
     display: flex;
@@ -82,14 +89,21 @@ bg-color{
     font-weight: lighter;
     font-size: 20px;
 }
-.review{
+.card{    
+    max-width: 360px;
     display: flex;
+    margin: auto;
+    gap: 20px;
+}
+.card li{
+    list-style: none;
 }
 
 .review-title{
     font-size: 40px;
     font-weight: bold;
-    align-items: center;
+    text-align: center;
+    margin: 130px;
 }
 .icon-star{
     width: 20px;
@@ -108,18 +122,42 @@ bg-color{
     font-size: medium;
 }
 .explore{
-    align-items: center;
+    text-align: center;
+    max-width: 1140px;
+}
+.big{
+    margin: 100px 150px 70px 150px;
+    border-radius: 48px;
 }
 .contact{
     display: flex;
-    background-color: powderblue;
+    max-width: 1140px;
+    margin: 90px 150px 20px 150px;
 }
 .contact-title{
     font-weight: bold;
     font-size: 90px;
 }
+.message input[type="name"],.message input[type="email"],.message textarea{
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
 
 /*footer*/
+.last{
+    text-align: center;
+    max-width: 520px;
+    margin: 100px 455px;
+}
+.connection{
+    text-align: center;
+    display: flex;
+    max-width: 400px;  
+}
 .last-title{
     font-weight: bolder;
     font-size: 100px;
@@ -129,13 +167,14 @@ bg-color{
     font-weight: lighter;
     color: 8987A1;
 }
-.connection ul li{
+.connection{
+    gap: 20px;
+}
+.connection li{
     list-style: none;
 }
 .connection li a{
     text-decoration: none;
 }
-.connection{
-    display: flex;
-}
+
 
