@@ -30,7 +30,9 @@ nav ul li{
     border-radius: 10px;
     border: none;
 }
-
+.btn-primary:hover{
+    background-color:aqua;
+}
 /*description*/
 
 .description{
@@ -147,18 +149,20 @@ nav ul li{
     display: block;
     margin-bottom: 20px;
     padding: 20px 30px;
+    border: black
+    background-color: white;
 }
 
 /*footer*/
 .last{
     text-align: center;
-    max-width: 520px;
+    max-width: 1440px;
     margin: 100px 455px;
 }
 .connection{
     text-align: center;
     display: flex;
-    max-width: 400px;  
+    max-width: 520px;  
 }
 .last-title{
     font-weight: bolder;
@@ -177,4 +181,7 @@ nav ul li{
 }
 .connection li a{
     text-decoration: none;
+}
+.connection li:hover{
+    background-color: lightgrey;
 }
