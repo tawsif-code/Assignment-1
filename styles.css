@@ -67,7 +67,6 @@ nav ul li{
 }
 
 .user{
-    background-color: lightskyblue;
     margin: 116px auto;
     max-width: 1140px;
 }
@@ -91,10 +90,10 @@ nav ul li{
     font-weight: lighter;
     font-size: 20px;
 }
-.card{    
-    max-width: 360px;
+.card{  
+    max-width: 1140px;  
     display: flex;
-    margin: auto;
+    margin: 50px auto;
     gap: 20px;
 }
 .card li{
@@ -102,10 +101,10 @@ nav ul li{
 }
 
 .review-title{
+    max-width: 1140px;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 130px;
 }
 .icon-star{
     width: 20px;
@@ -116,8 +115,8 @@ nav ul li{
     height: 40px; 
 }
 .reviewer-title{
-    font-weight: 400;
-    font-size: medium;
+    font-weight: bold;
+    font-size: large;
 }
 .reviewer-description{
     font-weight: 400;
