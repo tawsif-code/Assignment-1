@@ -118,3 +118,24 @@ bg-color{
     font-weight: bold;
     font-size: 90px;
 }
+
+/*footer*/
+.last-title{
+    font-weight: bolder;
+    font-size: 100px;
+    color: blue;
+}
+.last-description{
+    font-weight: lighter;
+    color: 8987A1;
+}
+.connection ul li{
+    list-style: none;
+}
+.connection li a{
+    text-decoration: none;
+}
+.connection{
+    display: flex;
+}
+
