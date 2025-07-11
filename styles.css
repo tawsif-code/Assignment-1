@@ -1,5 +1,11 @@
+/*header*/
+
+.header{
+    background-image:url(./Assets/Hero-bg.png);
+}
 
 /*nav styles*/
+
 nav{ 
     display: flex;
     align-items: center;
@@ -21,4 +27,83 @@ nav ul li{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+}
+
+/*description*/
+
+.description{
+    text-align: center;
+    padding: 158px 267.5px 152px;
+    font-weight: bold;
+}
+
+/*main*/
+
+.action{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: 252432;
+}
+
+.content-description{
+    font-weight: lighter;
+    font-size: 24px;
+    color: 252432;
+}
+
+bg-color{
+    color: deepskyblue;
+}
+.user{
+    align-items: center;
+}
+.user-title{
+    color: 252432;
+    font-size: 38px;
+    font-weight: bold;
+    align-items: center;
+}
+.user-abouts{
+    display: flex;
+    justify-content: space-around;
+}
+.about-n{
+    font-weight: bold;
+    font-size: 80px;
+    color: blue;
+}
+.about-title{
+    color: 000000;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.review{
+    display: flex;
+}
+
+.review-title{
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+}
+.icon-star{
+    width: 20px;
+    height: 20px;
+}
+.icon{
+   width: 40px;
+    height: 40px; 
+}
+.reviewer-title{
+    font-weight: 400;
+    font-size: medium;
+}
+.reviewer-description{
+    font-weight: 400;
+    font-size: medium;
 }
